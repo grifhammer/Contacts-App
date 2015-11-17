@@ -27,6 +27,10 @@ UITableViewDataSource, UITableViewDelegate, NewContactDelegate {
         }
     }
     
+    @IBAction func refreshButtonTouched(sender: AnyObject) {
+        self.tableView.reloadData()
+    }
+    
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return (self.contacts?.count)!
     }

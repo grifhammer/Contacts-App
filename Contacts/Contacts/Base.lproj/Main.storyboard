@@ -61,6 +61,11 @@
                                     <action selector="importButtonTouched:" destination="et9-5w-zRX" id="oLr-tu-yd4"/>
                                 </connections>
                             </barButtonItem>
+                            <barButtonItem title="Refresh" id="dMN-0J-Wwy">
+                                <connections>
+                                    <action selector="refreshButtonTouched:" destination="et9-5w-zRX" id="20B-L3-kDR"/>
+                                </connections>
+                            </barButtonItem>
                         </rightBarButtonItems>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
