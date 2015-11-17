@@ -15,6 +15,17 @@ UITableViewDataSource, UITableViewDelegate, NewContactDelegate {
     var contacts : [Contact]?
     
     @IBOutlet weak var tableView: UITableView!
+    @IBAction func importButtonTouched(sender: AnyObject) {
+        let wsm = WebServiceManager()
+        wsm.fetchContacts { (newContacts) -> Void in
+        
+            //Code in closure goes here
+            for contact in newContacts {
+                self.contacts?.append(contact)
+            }
+            DataManager.sharedManager.saveContacts(self.contacts!)
+        }
+    }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return (self.contacts?.count)!

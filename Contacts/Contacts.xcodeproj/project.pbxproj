@@ -17,6 +17,7 @@
 		8518EFAF1BF1670400B5AAA0 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8518EFAE1BF1670400B5AAA0 /* Contact.swift */; };
 		8518EFB31BF1672F00B5AAA0 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8518EFB21BF1672F00B5AAA0 /* DataManager.swift */; };
 		8518EFB51BF16B4100B5AAA0 /* ContactsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8518EFB41BF16B4100B5AAA0 /* ContactsDetailViewController.swift */; };
+		85984E411BFAAA6E00623227 /* WebServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85984E401BFAAA6E00623227 /* WebServiceManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		8518EFAE1BF1670400B5AAA0 /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		8518EFB21BF1672F00B5AAA0 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataManager.swift; path = ../DataManager.swift; sourceTree = "<group>"; };
 		8518EFB41BF16B4100B5AAA0 /* ContactsDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsDetailViewController.swift; sourceTree = "<group>"; };
+		85984E401BFAAA6E00623227 /* WebServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServiceManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				8516020E1BF415C1009F54AF /* NewContactViewController.swift */,
 				8518EFB41BF16B4100B5AAA0 /* ContactsDetailViewController.swift */,
 				8518EFAC1BF165BB00B5AAA0 /* ContactListViewController.swift */,
+				85984E401BFAAA6E00623227 /* WebServiceManager.swift */,
 				8518EFAE1BF1670400B5AAA0 /* Contact.swift */,
 				8518EFA11BF164B900B5AAA0 /* Assets.xcassets */,
 				8518EFA31BF164B900B5AAA0 /* LaunchScreen.storyboard */,
@@ -154,6 +157,7 @@
 				8518EFAF1BF1670400B5AAA0 /* Contact.swift in Sources */,
 				8518EFB51BF16B4100B5AAA0 /* ContactsDetailViewController.swift in Sources */,
 				8518EFB31BF1672F00B5AAA0 /* DataManager.swift in Sources */,
+				85984E411BFAAA6E00623227 /* WebServiceManager.swift in Sources */,
 				8518EF9B1BF164B900B5AAA0 /* AppDelegate.swift in Sources */,
 				8516020F1BF415C1009F54AF /* NewContactViewController.swift in Sources */,
 				8518EFAD1BF165BB00B5AAA0 /* ContactListViewController.swift in Sources */,
