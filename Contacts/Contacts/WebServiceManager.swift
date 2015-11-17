@@ -10,6 +10,7 @@ import Foundation
 
 struct WebServiceManager {
     func fetchContacts(callback : ([Contact]) -> Void) {
+        
         let url = NSURL(string: "http://jsonplaceholder.typicode.com/users")
         let request = NSURLRequest(URL: url!)
         
@@ -35,6 +36,7 @@ struct WebServiceManager {
             else {
                 //Got an error, so print it out
                 print("Got an error: \(err)")
+                callback([])
             }
         }
         task.resume()
